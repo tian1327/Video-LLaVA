@@ -1,0 +1,21 @@
+# directory
+.locks/
+cache_dir/
+data/
+llava.egg-info/
+llava/__pycache__/
+llava/model/__pycache__/
+llava/model/language_model/__pycache__/
+llava/model/language_model/mpt/__pycache__/
+llava/model/multimodal_encoder/__pycache__/
+llava/model/multimodal_encoder/languagebind/__pycache__/
+llava/model/multimodal_encoder/languagebind/audio/__pycache__/
+llava/model/multimodal_encoder/languagebind/depth/__pycache__/
+llava/model/multimodal_encoder/languagebind/image/__pycache__/
+llava/model/multimodal_encoder/languagebind/thermal/__pycache__/
+llava/model/multimodal_projector/__pycache__/
+llava/serve/__pycache__/
+models--LanguageBind--Video-LLaVA-7B/
+
+# __pycache__/ in any directory
+__pycache__/
