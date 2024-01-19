@@ -7,7 +7,9 @@ from llava.mm_utils import tokenizer_X_token, get_model_name_from_path, Keywords
 
 def main():
     disable_torch_init()
-    video = 'llava/serve/examples/sample_demo_1.mp4'
+    # video = 'llava/serve/examples/sample_demo_1.mp4'
+    # video = "data/Throwback Fails - That's one greedy cat!111.mp4"
+    video = 'data/oops_sample.mp4'
     inp = 'Why is this video funny?'
     model_path = 'LanguageBind/Video-LLaVA-7B'
     device = 'cuda'

@@ -3,4 +3,5 @@
 # try with kids video
 python -m llava.serve.cli --model-path "LanguageBind/Video-LLaVA-7B" --video-file "data/part1.mov" --load-4bit
 
+python -m llava.serve.cli --model-path "LanguageBind/Video-LLaVA-7B" --video-file "data/sample.mp4" --load-4bit
 ```

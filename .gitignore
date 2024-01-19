@@ -1,3 +1,7 @@
+# data
+*.tar.gz
+
+
 # directory
 .locks/
 cache_dir/
@@ -19,3 +23,4 @@ models--LanguageBind--Video-LLaVA-7B/
 
 # __pycache__/ in any directory
 __pycache__/
+*.pyc
