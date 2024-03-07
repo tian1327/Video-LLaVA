@@ -1,11 +1,12 @@
 # data
 *.tar.gz
-
+data/
+oops_dataset/
 
 # directory
 .locks/
 cache_dir/
-data/
+
 llava.egg-info/
 llava/__pycache__/
 llava/model/__pycache__/
